@@ -19,10 +19,15 @@ class Program
 {
     static void Main()
     {
-        Perro miPerro = new Perro("Akira",4,"Pastor Belga");
+        Perro miPerro = new Perro("Akira",6,"Pastor Belga");
         miPerro.MostrarInfo();
         miPerro.HacerSonido();
         miPerro.Buscar();
+
+        Perro miPerrodos = new Perro("Pepe",7,"Husky");
+        miPerrodos.MostrarInfo();
+        miPerrodos.HacerSonido();
+        miPerrodos.Buscar();
 
         Console.WriteLine("Raza:" + miPerro.Raza);
     }
